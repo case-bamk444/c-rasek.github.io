@@ -1,1 +1,47 @@
+:root
+{
+    --unclightblue: rgb(186,232,255);
+    --uncblue: rgb(1,45,91);
+    --uncgold: rgb(254,189,54);
+    --uncbluebird: rgb(0,125,186);
+    --uncdarkgray: rgb(51,51,51);
+    color: var(--uncblue);
+    background-color: var(--unclightblue);
+}
+
+img
+{
+    margin: 15px;
+}
+
+h1
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: var(--uncbluebird);
+}
+
+h2
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: var(--uncdarkgray);
+}
+
+h3
+{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: var(--uncdarkgray);
+}
+
+a
+{
+    color: var(--uncbluebird);
+}
+
+a:hover
+{
+    color: var(--uncgold);
+}
 
